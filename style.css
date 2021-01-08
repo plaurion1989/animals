@@ -1,7 +1,7 @@
 body {
     font-family: Arial;
     padding: 20px;
-    background: rgb(248, 244, 204);
+    background: rgb(0, 0, 0);
   }
   
   /* Header/Title */
@@ -65,8 +65,9 @@ a {
   .footer {
     padding: 20px;
     text-align: center;
-    background: #ddd;
+    background: rgb(158, 157, 157);
     margin-top: 20px;
+    text-decoration-color: white;
   }
   
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */

@@ -1,14 +1,12 @@
 function askUserName() {
-    var userName = prompt("Whats Your Favorite Animal?");
+    var animalName = prompt("Whats Your Favorite Animal?");
   
-    if (userName == "Lion", "Tiger", "Bear") {
+    if (animalName == "Lion") {
       document.write("Oh MY!");
-    } else if (userName == "Dog", "Cat") {
-      alert("I Like " + userName + "'s Too!");
-      document.write("Welcome to the site " + userName + " Lover!");
-    } else {
-        document.write("Welcome to My Website!")
-    }
+    } else if (animalName == "Dog", "Cat") {
+      alert("I Like " + animalName + "'s Too!");
+      document.write("Welcome to the site " + animalName + " Lover!");
+    } 
 }
   
  
